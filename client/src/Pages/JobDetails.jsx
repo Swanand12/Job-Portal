@@ -359,7 +359,7 @@ const JobDetails = () => {
               </div>
             ) : (
               <>
-                {job?.recruiter_id?._id === auth.user._id && (
+                {job?.recruiter_id === auth.user._id && (
                   <div>
                     <h1 className="text-3xl mb-10 font-semibold">Applications</h1>
                     <BarLoader

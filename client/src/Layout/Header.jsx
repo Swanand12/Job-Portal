@@ -35,7 +35,7 @@ const Header = () => {
     <>
       <div className="header w-full py-4 px-6 font-semibold  md:px-[4rem]  flex items-center justify-between ">
         <Link to={"/"}>
-          <img className="h-[4rem] h-[6rem] text-white" src="/assets/logo-light.png" alt="logo" />
+          <img className="h-[5rem] sm:h-[6rem] text-white" src="/assets/logo-light.png" alt="logo" />
         </Link>
         <div className="hidden  custom:flex  gap-7">
           <NavLink className="text-white relative  text-lg" to={"/"}>

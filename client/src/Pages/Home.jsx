@@ -18,8 +18,8 @@ const Home = () => {
       <Layout>
         <div className=" px-4  md:px-[4rem]">
           <div className="font-sans h-full text-white  ">
-            <div className=" mt-10 w-full  items-center  flex flex-col justify-center ">
-              <span className="text-[1.5rem] xs:text-[2rem] sm:text-[3rem] md:text-[3.5rem]  lg:text-[5.5rem]  items-center flex flex-col bg-gradient-to-br from-[#6b7280] via-[#e5e7eb] to-white bg-clip-text text-transparent mb-[3rem]  tracking-tight leading-tight font-[800] ">
+            <div className="mt-6 sm:mt-10 w-full  items-center  flex flex-col justify-center ">
+              <span className="text-[1.8rem] xs:text-[2.5rem] sm:text-[3rem] md:text-[3.5rem]  lg:text-[5.5rem]  items-center flex flex-col bg-gradient-to-br from-[#6b7280] via-[#e5e7eb] to-white bg-clip-text text-transparent mb-[2rem] sm:mb-[3rem]  tracking-tight leading-tight font-[800] ">
                 Find Your Dream Job
                 <span className="flex">
                   and get
@@ -30,7 +30,7 @@ const Home = () => {
                   />
                 </span>
               </span>
-              <p className="text-[12px] text-center sm:text-lg mb-[4rem]">
+              <p className="text-[12px] text-center sm:text-lg mb-[3rem] sm:mb-[4rem]">
                 Explore thousands of job listing or find the perfect candidate
               </p>
               <div className="flex">
@@ -38,7 +38,7 @@ const Home = () => {
                   <button
                     type="button"
                     onClick={() => navigate("/candidate/jobs")}
-                    className="py-2 text-sm sm:py-3 lg:py-5 mr-5 w-[6rem] xs:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-blue-600 rounded-lg hover:bg-blue-700  duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
+                    className=" text-sm py-2 px-1 w-[7rem] sm:py-2.5 lg:py-5 mr-5 sm:w-[8rem]  md:w-[10rem] lg:w-[12rem] bg-blue-600 rounded-lg hover:bg-blue-700  duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
                   >
                     Find Jobs
                   </button>
@@ -46,7 +46,7 @@ const Home = () => {
                   <button
                     type="button"
                     onClick={() => navigate("/recruiter/post-job")}
-                    className="py-2 text-sm sm:py-3 lg:py-5 mr-5 w-[6rem] xs:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-red-600 rounded-lg hover:bg-red-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
+                    className=" text-sm py-2 px-1 w-[7rem] sm:py-2.5 lg:py-5 mr-5 sm:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-red-600 rounded-lg hover:bg-red-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
                   >
                     Post Jobs
                   </button>
@@ -58,7 +58,7 @@ const Home = () => {
                         navigate("/auth");
                         toast.success("Login to access features");
                       }}
-                      className="py-2 text-sm sm:py-3 lg:py-5 mr-5 w-[6rem] xs:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-blue-600 rounded-lg hover:bg-blue-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
+                      className=" text-sm py-2 px-1 w-[7rem] sm:py-2.5 lg:py-5 mr-5 sm:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-blue-600 rounded-lg hover:bg-blue-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
                     >
                       Find Jobs
                     </button>
@@ -68,7 +68,7 @@ const Home = () => {
                         navigate("/auth");
                         toast.success("Login to access features");
                       }}
-                      className="py-2 text-sm sm:py-3 lg:py-5 mr-5 w-[6rem] xs:w-[8rem] md:w-[10rem] lg:w-[12rem] bg-red-600 rounded-lg hover:bg-red-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
+                      className=" text-sm py-2 px-1 w-[7rem] sm:py-2.5 lg:py-5 mr-5 sm:w-[8rem]  md:w-[10rem] lg:w-[12rem] bg-red-600 rounded-lg hover:bg-red-700 duration-300 ease-in-out font-bold xs:text-xl flex items-center justify-center"
                     >
                       Post Jobs
                     </button>
