@@ -5,44 +5,45 @@ A live demo of the application is hosted at [https://job-portal-lhzj.onrender.co
 
 ![Alt text](screenshots/chat-app.png)
 ## Built With
+- [Vite](https://vitejs.dev/) - A fast build tool and development server for modern web projects.
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - [Node.js](https://nodejs.org/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [Express.js](https://expressjs.com/) - A web application framework for Node.js designed for building APIs.
 - [MongoDB](https://www.mongodb.com/) - A NoSQL database for modern applications.
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for creating custom designs.
-- [Socket.IO](https://socket.io/) - A JavaScript library for real-time web applications.
+- [Shadcn UI](https://shadcn.dev/) - A set of reusable components built using Radix and Tailwind CSS for building modern UIs.
 
 ## Run Locally
 To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Swanand12/Chat-App.git
+   git clone https://github.com/Swanand12/Job-Portal.git
 
 2. Navigate to the project directory:
    ```bash
-   cd Chat-App
+   cd Job-Portal
 
-3. Go to the backend directory:
+3. Go to the server directory:
    ```bash
-   cd backend
+   cd server
 
-4. Install backend dependencies and Run the backend server:
+4. Install server dependencies and Run the server:
    ```bash
    npm install
    npm run server
 
-5. Go to the frontend directory:
+5. Go to the client directory:
    ```bash
-   cd frontend
+   cd client
 
-6. Install backend dependencies and Run the App:
+6. Install client dependencies and Run the App:
    ```bash
    npm install
-   npm start
+   npm run dev
 
 # Features
-## Authentication
+## Recruiter Authentication
 ![Alt text](screenshots/SignUp.png)
 ![Alt text](screenshots/SignIn.png)
 ## View Profile
